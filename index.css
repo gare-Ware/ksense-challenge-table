@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;900&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px;
+    margin: 0;
+    background-color: #6969ff;
+    font-family: 'Kanit', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-header {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: .2em;
+}
+
+table {
+    height: 100%;
+    width: 1000px;
+    color: #353535;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-collapse: collapse;
+    box-shadow: #00000059 0px 5px 15px;
+    text-align: left;
+    padding: 0;
+    transition: 300ms;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+td, th {
+    padding: 20px 0px 20px 30px;
+}
+
+th {
+    font-size: 1.3rem;
+}
+
+td {
+    color: #757575;
+}
+
+tr td:nth-child(1):hover {
+    color: #5858ff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#posts-container {
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    color: #353535;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: #00000059 0px 5px 15px;
+    text-align: left;
+    padding: 2em;
+    transition: 300ms;
+    margin-bottom: 2em;
+}
+
+.card h1 {
+    margin-bottom: 0;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card h3, p {
+    color: #757575;
+}
